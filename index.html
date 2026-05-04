@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="description" content="MAISON OBSIDIAN — Atelier of luxury furniture. Hand-crafted heirloom pieces in burnished gold, obsidian, and luxury white." />
+<title>Maison Obsidian — Luxury Atelier</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" />
+<link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+<canvas id="shimmer" aria-hidden="true"></canvas>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#">MAISON <span>OBSIDIAN</span></a>
+  <nav class="nav-links">
+    <a class="magnet" href="#collection">Collection</a>
+    <a class="magnet" href="#atelier">Atelier</a>
+    <a class="magnet" href="#journal">Journal</a>
+    <a class="magnet" href="#contact">Contact</a>
+  </nav>
+  <a class="cart magnet" href="#cart" aria-label="Cart"><span>Cart</span><sup>0</sup></a>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-grid">
+      <p class="kicker">EST. MMXXVI · MILANO · KYOTO · NEW YORK</p>
+      <h1 class="hero-title">
+        <span class="line">Furniture</span>
+        <span class="line italic">forged in</span>
+        <span class="line gold">stillness.</span>
+      </h1>
+      <p class="lede">A curated atelier of architectural seating, sculpted lighting, and heirloom case-goods — composed in obsidian, burnished gold, and luxury white.</p>
+      <div class="hero-meta">
+        <span>SS / 26 COLLECTION</span><span>·</span><span>14 PIECES</span><span>·</span><span>BY APPOINTMENT</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="collection" class="bento">
+    <header class="section-head">
+      <h2><span class="gold">01</span> The Collection</h2>
+      <p>Bento-architected showcase. Every piece, a singular gesture.</p>
+    </header>
+
+    <div class="bento-grid">
+      <article class="cell cell-a magnet-card" data-piece="Aether Lounge">
+        <div class="frame"><div class="orb"></div></div>
+        <div class="meta">
+          <h3>Aether Lounge</h3>
+          <dl><dt>MAT</dt><dd>Hand-rubbed walnut · bouclé</dd><dt>DIM</dt><dd>2140 × 880 × 720mm</dd><dt>EUR</dt><dd>€ 14,800</dd></dl>
+        </div>
+      </article>
+
+      <article class="cell cell-b magnet-card" data-piece="Obelisk Console">
+        <div class="frame"><div class="orb orb-2"></div></div>
+        <div class="meta">
+          <h3>Obelisk Console</h3>
+          <dl><dt>MAT</dt><dd>Patinated brass · obsidian</dd><dt>DIM</dt><dd>1800 × 380 × 820mm</dd><dt>EUR</dt><dd>€ 9,400</dd></dl>
+        </div>
+      </article>
+
+      <article class="cell cell-c magnet-card" data-piece="Solenne Pendant">
+        <div class="frame"><div class="orb orb-3"></div></div>
+        <div class="meta">
+          <h3>Solenne Pendant</h3>
+          <dl><dt>MAT</dt><dd>Murano · 24k gold leaf</dd><dt>DIM</dt><dd>Ø 620 × 1400mm</dd><dt>EUR</dt><dd>€ 6,200</dd></dl>
+        </div>
+      </article>
+
+      <article class="cell cell-d magnet-card" data-piece="Monolith Daybed">
+        <div class="frame"><div class="orb orb-4"></div></div>
+        <div class="meta">
+          <h3>Monolith Daybed</h3>
+          <dl><dt>MAT</dt><dd>Travertine · cashmere</dd><dt>DIM</dt><dd>2200 × 980 × 460mm</dd><dt>EUR</dt><dd>€ 18,600</dd></dl>
+        </div>
+      </article>
+
+      <article class="cell cell-e magnet-card" data-piece="Vesper Chair">
+        <div class="frame"><div class="orb orb-5"></div></div>
+        <div class="meta">
+          <h3>Vesper Chair</h3>
+          <dl><dt>MAT</dt><dd>Smoked oak · saddle leather</dd><dt>DIM</dt><dd>660 × 720 × 820mm</dd><dt>EUR</dt><dd>€ 4,300</dd></dl>
+        </div>
+      </article>
+
+      <article class="cell cell-f magnet-card" data-piece="Halo Mirror">
+        <div class="frame"><div class="orb orb-6"></div></div>
+        <div class="meta">
+          <h3>Halo Mirror</h3>
+          <dl><dt>MAT</dt><dd>Bronze · hand-blown glass</dd><dt>DIM</dt><dd>Ø 1200mm</dd><dt>EUR</dt><dd>€ 3,900</dd></dl>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="atelier" class="atelier">
+    <div class="atelier-grid">
+      <div class="atelier-copy">
+        <h2><span class="gold">02</span> The Atelier</h2>
+        <p class="lede">Each piece is composed in our Milano workshop by a circle of seven master artisans, then signed, numbered, and shipped within 90 days.</p>
+        <ul class="stats">
+          <li><span class="num">90</span><span class="lbl">DAYS · MADE TO ORDER</span></li>
+          <li><span class="num">07</span><span class="lbl">MASTER ARTISANS</span></li>
+          <li><span class="num">100Y</span><span class="lbl">HEIRLOOM WARRANTY</span></li>
+        </ul>
+      </div>
+      <figure class="atelier-figure"><div class="atelier-orb"></div></figure>
+    </div>
+  </section>
+
+  <section id="journal" class="journal">
+    <header class="section-head">
+      <h2><span class="gold">03</span> Journal</h2>
+      <p>Dispatches from the workshop.</p>
+    </header>
+    <div class="journal-grid">
+      <a class="entry magnet-card" href="#">
+        <span class="tag">MATERIAL</span>
+        <h3>The Patina of Brass</h3>
+        <p>On the slow chemistry of time, salt, and human touch.</p>
+      </a>
+      <a class="entry magnet-card" href="#">
+        <span class="tag">PROCESS</span>
+        <h3>Hand-Rubbed Walnut</h3>
+        <p>Twelve coats of oil, twelve days of waiting.</p>
+      </a>
+      <a class="entry magnet-card" href="#">
+        <span class="tag">PROVENANCE</span>
+        <h3>From Carrara to Milano</h3>
+        <p>Tracing a single block of travertine across three centuries.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="contact-title">Compose <span class="italic gold">your</span> commission.</h2>
+    <p class="lede">By appointment only. Studios in Milano, Kyoto, and New York.</p>
+    <a class="cta magnet" href="mailto:atelier@maison-obsidian.example">atelier@maison-obsidian.example →</a>
+  </section>
+</main>
+
+<footer>
+  <div class="foot-grid">
+    <p>© MMXXVI Maison Obsidian · All works numbered & signed.</p>
+    <p>MILANO · KYOTO · NEW YORK</p>
+    <p>Crafted with engineering precision.</p>
+  </div>
+</footer>
+
+<script src="./assets/app.js" defer></script>
+</body>
+</html>
